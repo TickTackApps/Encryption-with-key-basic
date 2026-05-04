@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:backgroundTint="@color/white"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/enterkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:digits="abcdefghijklmnopqrstuvwxyz"
+            android:textColorHint="#999999"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:hint="Enter Key" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/isencrypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="Encrypt" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/enterdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:textSize="18sp"
+        android:textColorHint="#999999"
+        android:digits=" abcdefghijklmnopqrstuvwxyz"
+        android:textColor="@color/black"
+        android:hint="Enter Data" />
+
+    <TextView
+        android:id="@+id/getdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Get Processed data here"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textColorHint="#999999"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</LinearLayout>
