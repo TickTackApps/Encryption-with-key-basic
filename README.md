@@ -1,2 +1,1 @@
-# Encryption-with-key-basic
-This is a simple key based plain text encrypting Android app. I made this open source so you can learn basic encryption and also improve this.
+[CLICK HERE TO Download Encryption with key](https://github.com/TickTackApps/Encryption-with-key-basic/releases/download/v1.0.0/app-debug.apk)
